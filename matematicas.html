@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Estadísticas y Consecuencias</title>
+
+  <!-- Fuente Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --fondo-claro: #f9f9f9;
+      --fondo-secundario: #ffffff;
+      --verde-principal: #a4d228;
+      --verde-oscuro: #004d40;
+      --azul-oscuro: #0f1b2c;
+      --texto: #333;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: url('f2.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 3px solid var(--verde-oscuro);
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .logo {
+      background-color: var(--azul-oscuro);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: 700;
+      margin-right: auto;
+    }
+
+    .logo a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: var(--texto);
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 70px;
+      margin-bottom: 40px;
+      color: var(--azul-oscuro);
+      font-weight: 700;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .stat {
+      width: 280px;
+      max-width: 90%;
+    }
+
+    .stat h2 {
+      font-size: 60px;
+      color: var(--verde-principal);
+      margin: 0 0 10px;
+    }
+
+    .stat p {
+      font-size: 20px;
+      color: var(--texto);
+    }
+
+    .img-circle {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="index.html">PROYECTO PAEC</a>
+    </div>
+    <nav>
+      <a href="matematicas.html">Matemáticas</a>
+      <a href="fisica.html">Física</a>
+      <a href="ensam.html">Ensamblar Circuitos</a>
+      <a href="ciencias.html">Ciencias Sociales</a>
+      <a href="espanol.html">Español</a>
+      <a href="ingles.html">Inglés</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Estadísticas y Consecuencias</h1>
+    <div class="stats">
+      <div class="stat">
+        <h2>12%</h2>
+        <p>Un informe del INECC reporta que solo el 12% de las escuelas en México realiza separación adecuada de residuos.</p>
+        <img src="https://cdn.pixabay.com/photo/2018/03/21/23/07/recycling-3249899_960_720.jpg" class="img-circle" />
+      </div>
+
+      <div class="stat">
+        <h2>0.1 a 0.3</h2>
+        <p>Según estudios de la SEDEMA, una escuela genera en promedio 0.1 a 0.3 kg de residuos por estudiante por día.</p>
+      </div>
+
+      <div class="stat">
+        <h2>30%</h2>
+        <p>Un estudio de la UNAM indica que en zonas escolares con mala gestión de residuos, las enfermedades respiratorias aumentan un 30%.</p>
+        <img src="https://cdn.pixabay.com/photo/2021/10/26/15/42/recycling-6744556_960_720.jpg" class="img-circle" />
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

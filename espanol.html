@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Análisis del PAEC - Español</title>
+
+  <!-- Fuente Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --verde-principal: #a4d228;
+      --verde-fondo: #00534a;
+      --verde-claro: #9caa53;
+      --azul-oscuro: #0f1b2c;
+      --blanco: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: url('https://img.freepik.com/free-photo/volunteer-collecting-garbage-nature_23-2149023264.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: var(--azul-oscuro);
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .logo {
+      font-weight: 700;
+      background-color: var(--azul-oscuro);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      margin-right: auto;
+    }
+
+    .logo a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: var(--azul-oscuro);
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .contenido {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px 40px;
+      background-color: rgba(255, 255, 255, 0.6);
+      min-height: calc(100vh - 80px);
+      position: relative;
+    }
+
+    .contenido h1 {
+      font-size: 70px;
+      font-weight: 700;
+    }
+
+    .contenido h1 span {
+      color: var(--verde-fondo);
+    }
+
+    .bloques {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 60px;
+      margin-top: 40px;
+    }
+
+    .bloque {
+      width: 300px;
+      padding: 30px;
+      border-radius: 20px;
+      background-color: var(--verde-claro);
+      color: white;
+      text-align: left;
+    }
+
+    .bloque h3 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .recomendaciones {
+      background-color: rgba(255, 255, 255, 0.8);
+      color: var(--azul-oscuro);
+      border: 2px solid var(--azul-oscuro);
+    }
+
+    .recomendaciones ul {
+      padding-left: 20px;
+    }
+
+    .texto p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .infografia-link {
+      position: absolute;
+      right: 60px;
+      bottom: 60px;
+      text-align: right;
+      font-size: 16px;
+      color: black;
+    }
+
+    .infografia-link a {
+      color: #00796b;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .infografia-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">PROYECTO PAEC</a>
+    </div>
+    <nav>
+      <a href="matematicas.html">Matemáticas</a>
+      <a href="fisica.html">Física</a>
+      <a href="ensam.html">Ensamblar Circuitos</a>
+      <a href="ciencias.html">Ciencias Sociales</a>
+      <a href="espanol.html">Español</a>
+      <a href="ingles.html">Inglés</a>
+    </nav>
+  </header>
+
+  <section class="contenido">
+    <h1>Análisis e <br><span>importancia del PAEC</span></h1>
+
+    <div class="bloques">
+      <div class="bloque">
+        <h3>Análisis Proceso</h3>
+        <p>
+          A lo largo del proyecto, los estudiantes analizaron los tipos de basura más comunes en la escuela, propusieron soluciones sustentables, diseñaron campañas de concientización y elaboraron prototipos funcionales o propuestas desde distintas asignaturas.
+        </p>
+      </div>
+
+      <div class="bloque recomendaciones">
+        <h3>Recomendaciones</h3>
+        <ul>
+          <li>Seguimiento a las mejores ideas del PAEC, proyectos aplicados.</li>
+          <li>Establecer comité de continuidad.</li>
+          <li>Apoyo técnico y asesorías ecológicas externas.</li>
+          <li>Documentar los resultados en una memoria anual para inspirar futuras generaciones.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="infografia-link">
+      <p>Aquí pueden encontrar nuestra infografía</p>
+      <a href="espa.pdf">Infografía PAEC</a>
+    </div>
+  </section>
+</body>
+</html>

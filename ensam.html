@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Residuos Sólidos desde lo Electrónico</title>
+
+  <!-- Fuente Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --verde-principal: #a4d228;
+      --verde-fondo: #00534a;
+      --blanco: #ffffff;
+      --azul-oscuro: #0f1b2c;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--blanco);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      border-bottom: 3px solid var(--verde-principal);
+      background-color: var(--blanco);
+    }
+
+    .logo {
+      font-weight: 700;
+      background-color: var(--azul-oscuro);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+    }
+
+    .logo a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: var(--azul-oscuro);
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .contenedor-principal {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .mitad-superior {
+      flex: 1;
+      background-color: var(--blanco);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px;
+      text-align: center;
+    }
+
+    .mitad-superior h1 {
+      font-size: 70px;
+      color: var(--azul-oscuro);
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .mitad-inferior {
+      flex: 1;
+      background-color: var(--verde-fondo);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+      padding: 60px;
+      color: var(--blanco);
+    }
+
+    .texto {
+      flex: 1;
+    }
+
+    .texto h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .texto p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .imagenes {
+      display: flex;
+      gap: 20px;
+    }
+
+    .imagen-espacio {
+      width: 260px;
+      height: 180px;
+      background-color: #ccc;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="index.html">PROYECTO PAEC</a>
+    </div>
+    <nav>
+      <a href="matematicas.html">Matemáticas</a>
+      <a href="fisica.html">Física</a>
+      <a href="ensam.html">Ensamblar Circuitos</a>
+      <a href="ciencias.html">Ciencias Sociales</a>
+      <a href="espanol.html">Español</a>
+      <a href="ingles.html">Inglés</a>
+    </nav>
+  </header>
+
+  <div class="contenedor-principal">
+    <div class="mitad-superior">
+      <h1>Residuos Sólidos<br>desde lo electrónico</h1>
+    </div>
+    <div class="mitad-inferior">
+      <div class="texto">
+        <h3>Explicación:</h3>
+        <p>
+          Con esta UAC buscamos relacionar el aspecto electrónico mediante un robot recolecta basura y una banda clasificadora de basura,
+          los cuales además de ayudar a nuestro ambiente nos enseñan cómo podemos aplicar nuestra carrera a un proyecto tan importante como el PAEC.
+        </p>
+      </div>
+      <div class="imagenes">
+  <div class="imagen-espacio">
+    <img src="banda.png" alt="Robot recolector" style="width:100%; height:100%; object-fit: cover; border-radius: 12px;">
+  </div>
+  <div class="imagen-espacio">
+    <img src="escoba.png" alt="Banda clasificadora" style="width:100%; height:100%; object-fit: cover; border-radius: 12px;">
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</body>
+</html>

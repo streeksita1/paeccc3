@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Separación de la Basura - Inglés</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --verde-principal: #a4d228;
+      --verde-fondo: #00534a;
+      --blanco: #ffffff;
+      --azul-oscuro: #0f1b2c;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: var(--azul-oscuro);
+      background-color: var(--blanco);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      border-bottom: 3px solid var(--verde-principal);
+      background-color: var(--blanco);
+    }
+
+    .logo {
+      font-weight: bold;
+      background-color: var(--azul-oscuro);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: var(--azul-oscuro);
+      font-weight: 500;
+    }
+
+    .seccion {
+      display: flex;
+      min-height: 100vh;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .izquierda {
+      background-color: var(--verde-fondo);
+      color: var(--blanco);
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      position: relative;
+    }
+
+    .etiqueta-ingles {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .etiqueta-ingles::before {
+      content: "\25C9 \25C9";
+      color: var(--verde-principal);
+      font-size: 20px;
+      margin-right: 8px;
+    }
+
+    .marco-imagen {
+      width: 240px;
+      height: 160px;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    .marco-imagen img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .izquierda p {
+      font-size: 22px;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .link-frase {
+      color: var(--blanco);
+      font-style: italic;
+      font-size: 20px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .link-frase:hover {
+      text-decoration: none;
+    }
+
+    .derecha {
+      flex: 1;
+      background-color: var(--blanco);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px;
+    }
+
+    .derecha h1 {
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .derecha p {
+      font-size: 22px;
+      line-height: 1.6;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">PROYECTO PAEC</div>
+    <nav>
+      <a href="matematicas.html">Matemáticas</a>
+      <a href="fisica.html">Física</a>
+      <a href="ensam.html">Ensamblar Circuitos</a>
+      <a href="ciencias.html">Ciencias Sociales</a>
+      <a href="espanol.html">Español</a>
+      <a href="ingles.html">Inglés</a>
+    </nav>
+  </header>
+
+  <section class="seccion">
+    <div class="izquierda">
+      <div class="marco-imagen">
+        <img src="f4.png" alt="Separación de basura">
+      </div>
+      <p>Encuentra aquí nuestro cartel informativo sobre la separación de basura</p>
+      <p class="frase">
+        <a href="cart2.jpeg" class="link-frase">Let’s Take Care of the Planet</a>
+      </p>
+    </div>
+
+    <div class="derecha">
+      <h1>Separación de la basura</h1>
+      <p>
+        Separar la basura es fundamental para cuidar el medio ambiente y mejorar la calidad de vida. Al clasificar los residuos en orgánicos, reciclables y no reciclables, facilitamos su reutilización, reducimos la contaminación y evitamos que materiales útiles terminen en los rellenos sanitarios.
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>

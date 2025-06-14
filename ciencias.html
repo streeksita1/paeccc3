@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CBTis 118 - Ciencias Sociales</title>
+
+  <!-- Fuente Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --verde-principal: #a4d228;
+      --verde-fondo: #00534a;
+      --blanco: #ffffff;
+      --azul-oscuro: #0f1b2c;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--blanco);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      border-bottom: 3px solid var(--verde-principal);
+      background-color: var(--blanco);
+    }
+
+    .logo {
+      font-weight: 700;
+      background-color: var(--azul-oscuro);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+    }
+
+    .logo a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: var(--azul-oscuro);
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .curva-verde {
+      background-color: var(--verde-fondo);
+      color: var(--blanco);
+      text-align: center;
+      padding: 80px 60px 100px;
+      border-bottom-left-radius: 50% 100px;
+      border-bottom-right-radius: 50% 100px;
+    }
+
+    .curva-verde h1 {
+      font-size: 70px;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .curva-verde p {
+      font-size: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    .destacado {
+      margin-top: 50px;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+    }
+
+    .flechas {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 800px;
+      margin: 30px auto 0;
+      padding: 0 40px;
+      font-weight: 500;
+    }
+
+    .flechas a {
+      font-size: 18px;
+      color: var(--verde-principal);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .contenido-inferior {
+      padding: 60px;
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .contenido-inferior img {
+      width: 140px;
+      height: auto;
+    }
+
+    .contenido-inferior p {
+      font-size: 16px;
+      color: var(--azul-oscuro);
+      line-height: 1.7;
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="index.html">PROYECTO PAEC</a>
+    </div>
+    <nav>
+      <a href="matematicas.html">Matemáticas</a>
+      <a href="fisica.html">Física</a>
+      <a href="ensam.html">Ensamblar Circuitos</a>
+      <a href="ciencias.html">Ciencias Sociales</a>
+      <a href="espanol.html">Español</a>
+      <a href="ingles.html">Inglés</a>
+    </nav>
+  </header>
+
+  <section class="curva-verde">
+    <h1>CbTis 118</h1>
+    <p>
+      El proyecto que realiza el CBTis 118, inicia con el objetivo principal de tener una escuela libre de residuos, y en su segunda etapa se propone abarcar el proceso de reciclado, dentro del plantel y de la comunidad que se encuentra cercana a la institución, así como los hogares de los diferentes alumnos que se identifican provenientes de los distintos municipios de Querétaro.
+    </p>
+
+    <div class="destacado">Aquí puedes encontrar<br>nuestros trabajos del PAEC</div>
+
+    <div class="flechas">
+      <a href="vid.mp4">“Reciclaje y PET”</a>
+      <a href="reseñapet.pdf">Reseña “El Reciclaje”</a>
+    </div>
+  </section>
+
+  <section class="contenido-inferior">
+    <img src="logo.png" alt="Logo CBTis">
+    <p>
+      El reciclado se define como el proceso de recolección y transformación de materiales para convertirlos en nuevos productos. Entre las diferentes actividades que se aplicarán en el proceso de reciclado se encuentra la concientización, la clasificación de colores de los botes residuos sólidos que manejan, proceso de reciclado, análisis del proceso, creación de nuevos productos a través de productos reciclados, todo esto a través de las diferentes UAC que participan en el proyecto.
+    </p>
+  </section>
+
+</body>
+</html>
